@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="mmlg_header.css" rel="stylesheet" />
+    <link href="mmlg_info.css" rel="stylesheet" />
+    <link href="mmlg_footer.css" rel="stylesheet" />
+    <title>87NN.com</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        font-size: 12px;
+      }
+
+      body {
+        margin: 0; /*body에 기본 설정된 margin 제거*/
+      }
+
+      .flex {
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <!--헤더(header)-->
+      <div class="container">
+        <header class="header">
+          <div class="header-content flex">
+            <div class="header-content_logo">87NN</div>
+            <nav class="header-content_nav flex">
+                <ul>
+                    <li>NNLG</li>
+                    <li>NNLG W</li>
+                    <li>MO</li>
+                    <li>ONES SERVICE</li>
+                    <li>팔칠엔엔 일상체</li>
+                    <li>ARCHIVE</li>
+                    <li>MEMBERSHIP</li>
+                    <li>STORE</li>
+                    <li>SEARCH</li>
+                    <li>BAG</li>
+                    <li class="active">LOGIN</li>
+                    <li>KR/￦</li>
+                  </ul>
+            </nav>
+        </div>
+    </header>
+<!--main -->
+<div id="container" style="padding-top: 40px;">
+    <div id="main_contants">
+        <div class="intro_main flex">
+            <div class="left_img">
+                <!--<a href="https://www.87mm.co.kr/">-->
+                    <img class="left" src="mmlg1.jpg"></a>
+            </div>
+            <div class="right_img">
+                <!--<a href="https://www.87mm.co.kr/">-->
+                    <img class="right" src="main2.jpg"> </a>
+            </div>
+        </div>
+    </div>  
+</div>
+  </body>
+</html>
+
+/*CSS*/
+header.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: #28d8a0;
+  border-bottom: 1px solid #000;
+  color: black;
+}
+
+.header-content {
+  width: 100%;
+  height: 4rem;
+  padding: 0.75rem 1rem;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.header-content_logo {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 900;
+  height: 1rem;
+  margin-right: 40px;
+  line-height: 40px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header-content_nav {
+  align-items: center;
+  flex-grow: 1;
+}
+
+.header-content_nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.header-content_nav ul li {
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.left_menu {
+  text-align: left;
+}
+
+#header .right_menu {
+  float: right;
+  padding-right: 10px;
+}
+
+#header .right_menu li :active {
+  color: white;
+}
+
+
+.left {
+  width: 759px;
+  float: left;
+}
+
+.right {
+  width: 759px;
+  float: right;
+}
