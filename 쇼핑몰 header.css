@@ -1,0 +1,75 @@
+#header {
+  background-color: #1c2a69;
+  height: 45px;
+  color: white;
+}
+
+.header_container {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  display: block;
+}
+
+/*왼쪽 메뉴*/
+.left {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+#header .left li {
+  float: left;
+  padding-left: 10px;
+  margin: 0 8px;
+  line-height: 3.5;
+}
+
+li {
+  list-style: none;
+  padding: 0;
+  display: list-item;
+}
+
+/*상단 메인 로고*/
+
+#header .main_logo {
+  color: white;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding: 4px;
+  margin-top: 2px;
+  font-size: 22px;
+}
+
+/*오른쪽 메뉴*/
+#header .right {
+  float: right;
+  padding-right: 10px;
+}
+
+.right {
+  margin: 0;
+  padding: 0;
+}
+
+#header .right li {
+  padding-left: 10px;
+  margin: 0 8px;
+  line-height: 3.5;
+  cursor: pointer;
+  display: inline-block;
+}
