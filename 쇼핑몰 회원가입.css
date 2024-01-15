@@ -1,0 +1,131 @@
+.content-grid {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.join-page {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  border: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+  border-color: white;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+th {
+  padding: 12px 0;
+  color: #353535;
+  text-align: left;
+  font-weight: normal;
+}
+
+td {
+  vertical-align: top;
+  padding: 8px 0px 10px 7px;
+  color: #666;
+}
+
+input {
+  height: 40px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea {
+  padding: 10px;
+  font-size: 13px;
+  line-height: 13px;
+  font-weight: inherit;
+  color: #353535;
+  border: 1px solid #d7d5d5;
+  border-radius: 0px;
+  outline-style: none;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input {
+  max-width: 100%;
+  vertical-align: middle;
+  outline: 0;
+}
+
+/*휴대전화 번호*/
+#mobile1 {
+  width: 70px;
+  margin: 0 4px 0 0;
+}
+
+#mobile2,
+#mobile3 {
+  width: 50px;
+  margin: 0 4px;
+}
+
+select {
+  max-width: 100%;
+  height: 40px;
+  padding: 0 15px 0 8px;
+  line-height: 40px;
+  font-size: 13px;
+  color: #333;
+  word-break: break-all;
+  font-weight: inherit;
+  border: 1px solid #d7d5d5;
+  border-radius: 0;
+  background: #fff;
+  background-size: auto 25px;
+}
+
+/*동의*/
+h3 {
+  padding: 50px 0 10px;
+  font-size: 16px;
+  color: #2e2e2e;
+}
+
+.displayone {
+  position: relative;
+  z-index: 2;
+}
+
+.join-button {
+  padding: 0;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.sizeM {
+  width: 140px;
+  padding: 10px 16px 8px 16px;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: normal;
+  vertical-align: middle;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
+  color: #000;
+  background-color: #fff;
+}
