@@ -1,0 +1,141 @@
+#main {
+  min-height: 800px;
+}
+
+ol {
+  font-size: 20px;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+*::before {
+  box-sizing: border-box;
+}
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-fluid:before {
+  display: table;
+  content: " ";
+}
+
+.container-fluid:after {
+  display: table;
+  content: " ";
+  clear: both;
+}
+*::after {
+  box-sizing: border-box;
+}
+
+#intro-main {
+  display: flex;
+  min-height: calc(100vh - 44px);
+}
+
+/*좌측 메뉴 1번*/
+#intro-main .main-menus {
+  width: 50%;
+}
+
+#intro-main .main-menus ul {
+  display: block;
+  padding: 40px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li {
+  list-style: none;
+}
+
+#intro-main .main-menus ul > li.active > a {
+  font-style: oblique;
+  color: #1c2a69;
+  opacity: 1;
+}
+
+#intro-main .main-menus ul > li > a {
+  font-size: 56px;
+  line-height: 71px;
+  transition: 0s, color 0.2s;
+}
+
+a {
+  text-decoration: none;
+}
+
+#intro-main .main-menus ul > li.active .sub-menu-content {
+  visibility: visible;
+  margin-top: 10px;
+}
+
+#intro-main .main-menus ul > li .sub-menu-content {
+  overflow: hidden;
+  transition: visibility 0s, height 0.2s;
+}
+
+/*좌측 메뉴 2번*/
+
+#intro-main .main-menus ul > li + li {
+  margin-top: 20px;
+}
+
+#intro-main .main-menus ul > li > a {
+  font-size: 56px;
+  line-height: 71px;
+  transition: 0s, color 0.2s;
+}
+
+a {
+  text-decoration: none;
+}
+
+#intro-main .main-menus ul > li:not(.active) .sub-menu-content {
+  height: 0px;
+}
+
+#intro-main .main-menus ul > li .sub-menu-content {
+  overflow: hidden;
+  transition: visibility 0s, height 0.2s;
+}
+
+.menu2 {
+  font-size: 60px;
+}
+
+/*우측 사진*/
+
+#intro-main .main-images {
+  width: 50%;
+  position: relative;
+}
+
+#intro-main .main-images > div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  max-width: 100%;
+  border: none;
+  vertical-align: top;
+}
+
+/*메인 하단 이미지*/
