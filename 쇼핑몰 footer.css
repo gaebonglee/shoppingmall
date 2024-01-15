@@ -1,0 +1,42 @@
+#footer {
+  padding: 20px;
+  border-top: 1px solid #000;
+}
+
+.footer-menu {
+  width: 100%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#footer ul.footer-gnb-list li {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+li {
+  list-style: none;
+}
+
+/*biz-info*/
+#footer .biz-info {
+  padding-top: 10px;
+}
+
+#footer .biz-info {
+  font-size: 12px;
+  color: #999;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
