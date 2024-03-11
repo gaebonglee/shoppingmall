@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>T°c</title>
+    <link rel="stylesheet" type="text/css" href="header_footer.css" />
+    <link rel="stylesheet" type="text/css" href="joinus.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--header-->
+    <header>
+      <div class="main_header">
+        <div class="header-top mobile-hide">
+          <div class="header_container">
+            <div class="wrapper flexitem">
+              <div class="left">
+                <div class="main_logo">
+                  <a href="/" class="main_link"
+                    ><img src="image/main_logo.jpg" width="50"
+                  /></a>
+                </div>
+              </div>
+              <div class="right">
+                <ul class="flexitem second-links">
+                  <li>
+                    <a href="#">
+                      <div class="icon-large">
+                        <i class="ri-search-2-line"></i>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="icon-large">
+                        <i class="ri-user-line"></i>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="icon-large">
+                        <i class="ri-heart-3-line"></i>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="iscart">
+                      <div class="icon-large">
+                        <i class="ri-shopping-bag-line"></i>
+                        <div class="fly-item">
+                          <span class="item-number">0</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/login">
+                      <div class="icon-large">
+                        <i class="ri-login-box-line"></i>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--header-top-->
+        <div class="header-nav">
+          <div class="header_container">
+            <div class="wrapper flexitem">
+              <a href="#" class="trigger desktop-hide">
+                <span class="i"><span class="ri-menu-2-line"></span></span
+              ></a>
+              <div class="left flexitem">
+                <nav class="mobile-hide">
+                  <ul class="flexitem second-links">
+                    <li><a href="#">Best</a></li>
+                    <li class="has-child">
+                      <a href="#"
+                        >Women
+                        <div class="icon-small">
+                          <i class="ri-arrow-down-s-line"></i>
+                        </div>
+                      </a>
+                      <div class="mega">
+                        <div class="container">
+                          <div class="wrapper">
+                            <div class="flexcol">
+                              <div class="row">
+                                <h4>의류</h4>
+                                <ul>
+                                  <li><a href="#">ALL</a></li>
+                                  <li><a href="#">상의</a></li>
+                                  <li><a href="#">바지</a></li>
+                                  <li><a href="#">치마</a></li>
+                                  <li><a href="#">스커트</a></li>
+                                  <li><a href="#">원피스</a></li>
+                                  <li><a href="#">셋업</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="flexcol">
+                              <div class="row">
+                                <h4>신발</h4>
+                                <ul>
+                                  <li><a href="#">ALL</a></li>
+                                  <li><a href="#">플랫, 로퍼</a></li>
+                                  <li><a href="#">부츠</a></li>
+                                  <li><a href="#">펌프스</a></li>
+                                  <li><a href="#">샌들</a></li>
+                                  <li><a href="#">슬리퍼, 뮬</a></li>
+                                  <li><a href="#">스니커즈</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="flexcol">
+                              <div class="row">
+                                <h4>악세서리</h4>
+                                <ul>
+                                  <li><a href="#">ALL</a></li>
+                                  <li><a href="#">주얼리</a></li>
+                                  <li><a href="#">모자</a></li>
+                                  <li><a href="#">시계</a></li>
+                                  <li><a href="#">아이웨어</a></li>
+                                  <li><a href="#">벨트</a></li>
+                                  <li><a href="#">지갑, 카드케이스</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="flexcol">
+                              <div class="row">
+                                <h4>Top Brands</h4>
+                                <ul class="brands">
+                                  <li><a href="#">DUNST</a></li>
+                                  <li><a href="#">MATIN KIM</a></li>
+                                  <li><a href="#">URAGO</a></li>
+                                  <li><a href="#">LOEUVRE</a></li>
+                                  <li><a href="#">TILLIDIE</a></li>
+                                  <li><a href="#">SIYAZU</a></li>
+                                  <li><a href="#">CELITAILS</a></li>
+                                </ul>
+                                <a href="#" class="view-all"
+                                  >View all brands<i
+                                    class="ri-arrow-right-line"
+                                  ></i
+                                ></a>
+                              </div>
+                            </div>
+                            <div class="flexcol products">
+                              <div class="row">
+                                <div class="media">
+                                  <div class="theumbnail">
+                                    <img
+                                      src="goodbye-women.png"
+                                      alt="goodbye_winter"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="has-child">
+                      <a href="#"
+                        >Men
+                        <div class="icon-small">
+                          <i class="ri-arrow-down-s-line"></i></div
+                      ></a>
+                      <div class="mega">
+                        <div class="container">
+                          <div class="wrapper">
+                            <div class="flexcol">
+                              <div class="row">
+                                <h4>의류</h4>
+                                <ul>
+                                  <li><a href="#">ALL</a></li>
+                                  <li><a href="#">아우터</a></li>
+                                  <li><a href="#">상의</a></li>
+                                  <li><a href="#">하의</a></li>
+                                  <li><a href="#">셋업</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="flexcol">
+                              <div class="row">
+                                <h4>신발</h4>
+                                <ul>
+                                  <li><a href="#">ALL</a></li>
+                                  <li><a href="#">스니커즈</a></li>
+                                  <li><a href="#">로퍼</a></li>
+                                  <li><a href="#">구두</a></li>
+                                  <li><a href="#">부츠</a></li>
+                                  <li><a href="#">샌들</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="flexcol">
+                              <div class="row">
+                                <h4>악세서리</h4>
+                                <ul>
+                                  <li><a href="#">ALL</a></li>
+                                  <li><a href="#">모자</a></li>
+                                  <li><a href="#">시계</a></li>
+                                  <li><a href="#">아이웨어</a></li>
+                                  <li><a href="#">넥타이</a></li>
+                                  <li><a href="#">벨트</a></li>
+                                  <li><a href="#">지갑, 카드케이스</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="flexcol">
+                              <div class="row">
+                                <h4>Top Brands</h4>
+                                <ul class="brands">
+                                  <li><a href="#">OURSELVES</a></li>
+                                  <li><a href="#">BELIER</a></li>
+                                  <li><a href="#">TOMASMORE</a></li>
+                                  <li><a href="#">87MM</a></li>
+                                  <li><a href="#">PATAGONIA</a></li>
+                                  <li><a href="#">LAFUDGESTORE</a></li>
+                                  <li><a href="#">THISISNEVERTHAT</a></li>
+                                </ul>
+                                <a href="#" class="view-all"
+                                  >View all brands<i
+                                    class="ri-arrow-right-line"
+                                  ></i
+                                ></a>
+                              </div>
+                            </div>
+                            <div class="flexcol products">
+                              <div class="row">
+                                <div class="media">
+                                  <div class="theumbnail">
+                                    <img
+                                      src="goodbye-men.png"
+                                      alt="goodbye_winter"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="#">Look Book </a>
+                    </li>
+                    <li>
+                      <a href="weather.html" class="special_category"
+                        >T-emperature
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="right">
+                <!--<div class="search-box">
+                    <form action="" class="search">
+                      <input type="search" placeholder="Search for products" />
+                      <button type="submit">Search</button>
+                    </form>
+                  </div>-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--header-->
+    <!--회원가입 폼-->
+    <div id="contents" class="content-grid">
+      <div class="join-page">
+        <div class="base-table-typewrite">
+          <table>
+            <tbody>
+              <tr>
+                <th scope="row">아이디</th>
+                <td class="input_td">
+                  <input
+                    id="member_id"
+                    fw-label="아이디"
+                    class="inputTypeText"
+                    type="text"
+                  />
+                </td>
+                <td class="join_guide">
+                  <p id="idmsg">
+                    <span id="id_condition1"
+                      >소문자<i class="ri-check-line"></i>
+                    </span>
+                    <span id="id_condition2"
+                      >숫자<i class="ri-check-line"></i>
+                    </span>
+                    <span id="id_condition3"
+                      >8~16자 이내<i class="ri-check-line"></i>
+                    </span>
+                  </p>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">비밀번호</th>
+                <td class="input_td">
+                  <input
+                    id="member_pw1"
+                    fw-label="비밀번호"
+                    class="inputTypeText"
+                    type="text"
+                    placeholder="특수문자 !@#$%^&*만 입력가능"
+                  />
+                </td>
+                <td class="join_guide">
+                  <p id="pw1msg">
+                    <span id="pw_condition1"
+                      >대소문자<i class="ri-check-line"></i>
+                    </span>
+                    <span id="pw_condition2"
+                      >숫자<i class="ri-check-line"></i>
+                    </span>
+                    <span id="pw_condition3"
+                      >특수문자<i class="ri-check-line"></i>
+                    </span>
+                    <span id="pw_condition4"
+                      >8~16자 이내<i class="ri-check-line"></i>
+                    </span>
+                  </p>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">비밀번호 확인</th>
+                <td class="input_td">
+                  <input
+                    id="member_pw2"
+                    fw-label="비밀번호 확인"
+                    class="inputTypeText"
+                    type="text"
+                  />
+                </td>
+                <td class="join_guide">
+                  <p id="pw2msg">
+                    <span id="pw_condition5"
+                      >비밀번호 일치<i class="ri-check-line"></i>
+                    </span>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">이름</th>
+                <td class="input_td">
+                  <input
+                    id="member_name"
+                    fw-label="이름"
+                    class="inputTypeText"
+                    type="text"
+                  />
+                  <span id="namemsg"> </span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">휴대전화</th>
+                <td class="input_td">
+                  <select
+                    id="mobile1"
+                    fw-filter="isNumber&amp;isFill"
+                    fw-label="휴대전화"
+                  >
+                    <option value="010">010</option>
+                    <option value="011">011</option>
+                    <option value="016">016</option>
+                    <option value="017">017</option>
+                    <option value="018">018</option>
+                    <option value="019">019</option></select
+                  >-
+                  <input
+                    id="mobile2"
+                    maxlength="4"
+                    fw-label="휴대전화"
+                    type="text"
+                  />
+                  <input
+                    id="mobile3"
+                    maxlength="4"
+                    fw-label="휴대전화"
+                    type="text"
+                  />
+
+                  <tr>
+                    <th scope="row">이메일</th>
+                    <td class="input_td">
+                      <input
+                        id="email"
+                        fw-filter="isFill&amp;isEmail"
+                        fw-label="이메일"
+                        type="text"
+                        class="inputTypeText"
+                      />
+                      <span id="emailmsg"> </span>
+                    </td>
+                  </tr>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!--약관동의-->
+          <div class="agree_wrap">
+            <div class="all_agree_wrap">
+              <h3>전체동의</h3>
+              <div class="base-box gStrong">
+                <p>
+                  <span class="base-check">
+                    <input type="checkbox" id="all-agree" /><em
+                      class="all-agree-checkbox"
+                    ></em>
+                  </span>
+                  <label for="all-agree">
+                    <strong>
+                      이용약관 및 개인정보수집 및 이용에 모두 동의합니다.
+                    </strong>
+                  </label>
+                </p>
+              </div>
+            </div>
+
+            <div class="yes_agree_wrap">
+              <div class="yes_agree_content_1">
+                <h3>[필수] 이용약관 동의</h3>
+                <div class="all-agreement">
+                  <textarea
+                    cols="113%"
+                    rows="10%"
+                    style="color: rgb(47, 47, 47)"
+                  >
+  제1조(목적)
+  이 약관은 T-emperature가 운영하는 HPEMALL 사이버 몰(이하 “몰”이라 한다)에서 제공하는 인터넷 관련 서비스(이하 “서비스”라 한다)를 이용함에 있어 사이버 몰과 이용자의 권리․의무 및 책임사항을 규정함을 목적으로 합니다.
+  ※「PC통신, 무선 등을 이용하는 전자상거래에 대해서도 그 성질에 반하지 않는 한 이 약관을 준용합니다.」
+        
+  제2조(정의)
+  ① “몰”이란 T-emperature이 재화 또는 용역(이하 “재화 등”이라 함)을 이용자에게 제공하기 위하여 컴퓨터 등 정보통신설비를 이용하여 재화 등을 거래할 수 있도록 설정한 가상의 영업장을 말하며, 아울러 사이버몰을 운영하는 사업자의 의미로도 사용합니다.
+  ② “이용자”란 “몰”에 접속하여 이 약관에 따라 “몰”이 제공하는 서비스를 받는 회원 및 비회원을 말합니다.
+  ③ ‘회원’이라 함은 “몰”에 (삭제) 회원등록을 한 자로서, 계속적으로 “몰”이 제공하는 서비스를 이용할 수 있는 자를 말합니다.
+  ④ ‘비회원’이라 함은 회원에 가입하지 않고 “몰”이 제공하는 서비스를 이용하는 자를 말합니다.</textarea
+                  >
+
+                  <br />이용약관에 동의하십니까?&nbsp;&nbsp;<input
+                    type="checkbox"
+                    id="yes_agree"
+                    class="yes_agree-checkbox"
+                  />동의함
+                </div>
+              </div>
+              <div class="yes_agree_content_2">
+                <h3>[필수] 개인정보 수집목적 및 이용</h3>
+                <div class="all-agreement">
+                  <textarea
+                    cols="113%"
+                    rows="10%"
+                    style="color: rgb(47, 47, 47)"
+                  >
+  1. 개인정보 수집목적 및 이용목적
+  가. 서비스 제공에 관한 계약 이행 및 서비스 제공에 따른 요금정산
+  콘텐츠 제공 , 구매 및 요금 결제 , 물품배송 또는 청구지 등 발송 , 금융거래 본인 인증 및 금융 서비스
+                          
+  나. 회원 관리
+  회원제 서비스 이용에 따른 본인확인 , 개인 식별 , 불량회원의 부정 이용 방지와 비인가 사용 방지 , 가입 의사 확인 , 연령확인 , 만14세 미만 아동 개인정보 수집 시 법정 대리인 동의여부 확인, 불만처리 등 민원처리 , 고지사항 전달
+                  
+  2. 수집하는 개인정보 항목 : 이름 , 생년월일 , 성별 , 로그인ID , 비밀번호 , 자택 전화번호 , 휴대전화번호 , 이메일 , 14세미만 가입자의 경우 법정대리인의 정보
+                          
+  3. 개인정보의 보유기간 및 이용기간
+  원칙적으로, 개인정보 수집 및 이용목적이 달성된 후에는 해당 정보를 지체 없이 파기합니다. 단, 다음의 정보에 대해서는 아래의 이유로 명시한 기간 동안 보존합니다.</textarea
+                  >
+
+                  <br />개인정보 수집목적 및 이용에
+                  동의하십니까?&nbsp;&nbsp;<input
+                    type="checkbox"
+                    id="yes_agree"
+                    class="yes_agree-checkbox"
+                  />동의함
+                </div>
+              </div>
+            </div>
+
+            <div class="join-button">
+              <button
+                type="button"
+                class="btnSubmit sizeM"
+                onclick="location.href='/login'"
+              >
+                회원가입
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--footer-->
+    <footer>
+      <div class="footer_container">
+        <div class="footer_top">
+          <!--cs_section-->
+          <div class="cs_section">
+            <div class="cs_center">
+              <p class="top">고객센터 1588-1588</p>
+              <p class="bottom">
+                운영시간 : 평일 09:00 - 17:30 (점심시간 12:00 - 13 : 00 제외)
+              </p>
+            </div>
+            <div class="cs_section_bottonBox">
+              <a href="">FAQ<span></span></a>
+              <a href="">1:1 문의<span></span></a>
+            </div>
+          </div>
+          <!--cs_section-->
+          <div class="foot_bottom">
+            <div class="menu_section">
+              <ul class="menu_list">
+                <li>
+                  <h2 class="title">ABOUT US</h2>
+                  <a href="">T-emperature 소개</a>
+                  <a href="">인재채용</a>
+                </li>
+                <li>
+                  <h2 class="title">MY ORDER</h2>
+                  <a href="">주문배송</a>
+                  <a href="">취소/교환/반품 내역</a>
+                  <a href="">상품 리뷰내역</a>
+                </li>
+                <li>
+                  <h2 class="title">MY ACCOUNT</h2>
+                  <a href="">회원정보수정</a>
+                  <a href="">회원등급</a>
+                  <a href="">마일리지현황</a>
+                  <a href="">쿠폰</a>
+                </li>
+                <li>
+                  <h2 class="title">HELP</h2>
+                  <a href="">상품 Q&A내역</a>
+                  <a href="">공지사항</a>
+                  <a href="">고객의소리</a>
+                </li>
+              </ul>
+            </div>
+            <div class="notice_section">
+              <h2 class="title">NOTICE</h2>
+              <ul>
+                <li>
+                  <a href=""
+                    >[공지] 유효기간 만료 마일리지 일괄 소멸 예정 안내</a
+                  >
+                </li>
+                <li>
+                  <a href=""
+                    >[공지] 현대카드 12개월 무이자 할부 관련 변경 안내 (시행일 :
+                    2024년 02월 07일)</a
+                  >
+                </li>
+                <li>
+                  <a href=""
+                    >[공지] 개인정보 처리방침 개정 사전 안내 (시행일 : 2024년
+                    01월 24일)
+                  </a>
+                </li>
+                <li>
+                  <a href="">[공지] 현대카드 청구할인 해톅 제외 카드 안내</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer_info">
+            <div class="footer_documentation">
+              <a href="">개인정보처리방침</a>
+              <a href="">이용약관</a>
+            </div>
+            <div class="footer_info_crop">
+              <div class="crop_wrap">
+                <d1 class="item">
+                  <dt>상호명 : </dt>
+                  <dd>주식회사 무신사 (MUSINSA Co., Ltd)</dd>
+                </d1>
+                <d1 class="item">
+                  <dt>사업장 소재지 :  </dt>
+                  <dd>서울특별시 성동구 아차산로13길 11, (성수동2가 무신사캠퍼스 엔1)</dd>
+                </d1>
+                <d1 class="item">
+                  <dt>팩스 : </dt>
+                  <dd>010-0000-0000</dd>
+                </d1>
+                <d1 class="item">
+                  <dt>통신판매업신고 : </dt>
+                  <dd>2022-서울강남-1229</dd>
+                </d1>
+              </div>
+              <div class="crop_wrap">
+                <d1 class="item">
+                  <dt>전화번호 : </dt>
+                  <dd>1644-0560</dd>
+                </d1>
+                <d1 class="item">
+                  <dt>이메일 : </dt>
+                  <dd>0000@tcmail.co.kr</dd>
+                </d1>
+                <d1 class="item">
+                  <dt>대표 : </dt>
+                  <dd>이가영</dd>
+                </d1>
+                <d1 class="item">
+                  <dt>개인정보 보호책임자 : </dt>
+                  <dd>이가영</dd>
+                </d1>
+              </div>
+              <div class="crop_wrap">
+                <p>일부 상품의 경우 TC는 통신파냄의 당사자가 아닌 통신판매자중개자로서 상품, 거래에 대한 책임이 제한될 수 있으므로, 각 상품 페이지에서 구체적인 내용을 확인하시기 바랍니다.</p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </footer>
+    <!--footer-->
+    <!--javascript-->
+    <script>
+      // 아이디 조건 검사 함수
+function checkIdConditions() {
+  const memberId = document.getElementById("member_id").value;
+  const idCondition1 = /[a-z]/.test(memberId); 
+  const idCondition2 = /\d/.test(memberId); 
+  const idCondition3 = memberId.length >= 8 && memberId.length <= 16;
+  
+  // 각 조건을 확인하여 조건 충족 시 색상 변경
+  document.getElementById("id_condition1").style.color = idCondition1
+    ? "blue"
+    : "#666";
+  document.getElementById("id_condition2").style.color = idCondition2
+    ? "blue"
+    : "#666";
+  document.getElementById("id_condition3").style.color = idCondition3
+    ? "blue"
+    : "#666";
+}
+
+// 비밀번호 입력란의 값이 변경될 때마다 조건을 검사하여 스타일 변경
+document.getElementById("member_pw1").addEventListener("input", function () {
+  var password = this.value;
+
+  // 비밀번호 조건 검사
+  const pwCondition1 = /[A-Z]/.test(password);
+  const pwCondition2 = /[a-z]/.test(password);
+  const pwCondition3 = /[0-9]/.test(password);
+  const pwCondition4 = /[!@#$%^&*()]/.test(password);
+  const pwCondition5 = password.length >= 8 && password.length <= 16;
+
+  // 조건에 따라 스타일 변경
+  document.getElementById("pw_condition1").style.color =
+    pwCondition1 && pwCondition2 ? "blue" : "#666";
+  document.getElementById("pw_condition2").style.color = pwCondition3
+    ? "blue"
+    : "#666";
+  document.getElementById("pw_condition3").style.color = pwCondition4
+    ? "blue"
+    : "#666";
+  document.getElementById("pw_condition4").style.color = pwCondition5
+    ? "blue"
+    : "#666";
+});
+
+// 비밀번호 확인 입력란의 값이 변경될 때마다 비밀번호와의 일치 여부 확인하여 스타일 변경
+document.getElementById("member_pw2").addEventListener("input", function () {
+  var confirmPassword = this.value;
+  var password = document.getElementById("member_pw1").value;
+  const pwCondition5 = password === confirmPassword;
+  document.getElementById("pw_condition5").style.color = pwCondition5
+    ? "blue"
+    : "#666";
+});
+
+// 전체동의 체크박스 클릭 시 개별 동의 체크박스 상태 변경
+document.getElementById("all-agree").addEventListener("change", function () {
+  var isChecked = this.checked;
+  var individualCheckboxes = document.querySelectorAll(".yes_agree-checkbox");
+
+  individualCheckboxes.forEach(function (checkbox) {
+    checkbox.checked = isChecked;
+  });
+});
+
+// 개별 동의 체크박스 클릭 시 전체동의 체크박스 상태 변경
+var individualCheckboxes = document.querySelectorAll(".yes_agree-checkbox");
+
+individualCheckboxes.forEach(function (checkbox) {
+  checkbox.addEventListener("change", function () {
+    var allAgreeCheckbox = document.getElementById("all-agree");
+    var allChecked = true;
+
+    individualCheckboxes.forEach(function (checkbox) {
+      if (!checkbox.checked) {
+        allChecked = false;
+      }
+    });
+
+    allAgreeCheckbox.checked = allChecked;
+  });
+});
+
+// 개별 동의 체크박스 클릭 시 전체동의 체크박스 해제
+individualCheckboxes.forEach(function (checkbox) {
+  checkbox.addEventListener("change", function () {
+    var allAgreeCheckbox = document.getElementById("all-agree");
+
+    if (!this.checked) {
+      allAgreeCheckbox.checked = false;
+    }
+  });
+});
+
+// 이벤트 리스너 등록
+document
+  .getElementById("member_id")
+  .addEventListener("input", checkIdConditions);
+document
+  .getElementById("member_pw1")
+  .addEventListener("input", checkPasswordConditions);
+document
+  .getElementById("member_pw2")
+  .addEventListener("input", checkPasswordMatch);
+document.getElementById("all-agree").addEventListener("change", checkAllAgree);
+document.querySelectorAll("#yes_agree").forEach((checkbox) => {
+  checkbox.addEventListener("change", checkIndividualAgree);
+});
+
+// 페이지 로드 시 한 번 실행하여 초기 상태 설정
+checkIdConditions();
+checkPasswordConditions();
+checkPasswordMatch();
+checkAllAgree();
+
+    </script>
+        <!--javascript-->
+  </body>
+</html>
