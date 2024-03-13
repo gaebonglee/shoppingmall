@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T°c</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+    <link rel="stylesheet" href="header_footer.css" />
+    <link rel="stylesheet" href="insert.css" />
+</head>
+<body>
+    <!--header-->
+    <header>
+      <div class="main_header">
+        <div class="header-top mobile-hide">
+          <div class="header_container">
+            <div class="wrapper flexitem">
+              <div class="left">
+                <div class="main_logo">
+                  <a href="T-emperature_main.html" class="main_link"
+                    ><img src="/image/main_logo.jpg" width="50"
+                  /></a>
+                </div>
+              </div>
+              <div class="right">
+                <ul class="flexitem second-links">
+                  <li>
+                    <a href="#">
+                      <div class="icon-large">
+                        <i class="ri-search-2-line"></i>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="icon-large">
+                        <i class="ri-user-line"></i>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="icon-large">
+                        <i class="ri-heart-3-line"></i>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="iscart">
+                      <div class="icon-large">
+                        <i class="ri-shopping-bag-line"></i>
+                        <div class="fly-item">
+                          <span class="item-number">0</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="login.html">
+                      <div class="icon-large">
+                        <i class="ri-login-box-line"></i>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--header-top-->
+        <div class="header-nav">
+          <div class="header_container">
+            <div class="wrapper flexitem">
+              <a href="#" class="trigger desktop-hide">
+                <span class="i"><span class="ri-menu-2-line"></span></span
+              ></a>
+              <div class="left flexitem">
+                <nav class="mobile-hide">
+                  <ul class="flexitem second-links">
+                    <li><a href="#">Best</a></li>
+                    <li class="has-child">
+                      <a href="#"
+                        >Women
+                        <div class="icon-small">
+                          <i class="ri-arrow-down-s-line"></i>
+                        </div>
+                      </a>
+                      <div class="mega">
+                        <div class="container">
+                          <div class="wrapper">
+                            <div class="flexcol">
+                              <div class="row">
+                                <h4>의류</h4>
+                                <ul>
+                                  <li><a href="#">ALL</a></li>
+                                  <li><a href="#">상의</a></li>
+                                  <li><a href="#">바지</a></li>
+                                  <li><a href="#">치마</a></li>
+                                  <li><a href="#">스커트</a></li>
+                                  <li><a href="#">원피스</a></li>
+                                  <li><a href="#">셋업</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="flexcol">
+                              <div class="row">
+                                <h4>신발</h4>
+                                <ul>
+                                  <li><a href="#">ALL</a></li>
+                                  <li><a href="#">플랫, 로퍼</a></li>
+                                  <li><a href="#">부츠</a></li>
+                                  <li><a href="#">펌프스</a></li>
+                                  <li><a href="#">샌들</a></li>
+                                  <li><a href="#">슬리퍼, 뮬</a></li>
+                                  <li><a href="#">스니커즈</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="flexcol">
+                              <div class="row">
+                                <h4>악세서리</h4>
+                                <ul>
+                                  <li><a href="#">ALL</a></li>
+                                  <li><a href="#">주얼리</a></li>
+                                  <li><a href="#">모자</a></li>
+                                  <li><a href="#">시계</a></li>
+                                  <li><a href="#">아이웨어</a></li>
+                                  <li><a href="#">벨트</a></li>
+                                  <li><a href="#">지갑, 카드케이스</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="flexcol">
+                              <div class="row">
+                                <h4>Top Brands</h4>
+                                <ul class="brands">
+                                  <li><a href="#">DUNST</a></li>
+                                  <li><a href="#">MATIN KIM</a></li>
+                                  <li><a href="#">URAGO</a></li>
+                                  <li><a href="#">LOEUVRE</a></li>
+                                  <li><a href="#">TILLIDIE</a></li>
+                                  <li><a href="#">SIYAZU</a></li>
+                                  <li><a href="#">CELITAILS</a></li>
+                                </ul>
+                                <a href="#" class="view-all"
+                                  >View all brands<i
+                                    class="ri-arrow-right-line"
+                                  ></i
+                                ></a>
+                              </div>
+                            </div>
+                            <div class="flexcol products">
+                              <div class="row">
+                                <div class="media">
+                                  <div class="theumbnail">
+                                    <img
+                                      src="goodbye-women.png"
+                                      alt="goodbye_winter"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="has-child">
+                      <a href="#"
+                        >Men
+                        <div class="icon-small">
+                          <i class="ri-arrow-down-s-line"></i></div
+                      ></a>
+                      <div class="mega">
+                        <div class="container">
+                          <div class="wrapper">
+                            <div class="flexcol">
+                              <div class="row">
+                                <h4>의류</h4>
+                                <ul>
+                                  <li><a href="#">ALL</a></li>
+                                  <li><a href="#">아우터</a></li>
+                                  <li><a href="#">상의</a></li>
+                                  <li><a href="#">하의</a></li>
+                                  <li><a href="#">셋업</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="flexcol">
+                              <div class="row">
+                                <h4>신발</h4>
+                                <ul>
+                                  <li><a href="#">ALL</a></li>
+                                  <li><a href="#">스니커즈</a></li>
+                                  <li><a href="#">로퍼</a></li>
+                                  <li><a href="#">구두</a></li>
+                                  <li><a href="#">부츠</a></li>
+                                  <li><a href="#">샌들</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="flexcol">
+                              <div class="row">
+                                <h4>악세서리</h4>
+                                <ul>
+                                  <li><a href="#">ALL</a></li>
+                                  <li><a href="#">모자</a></li>
+                                  <li><a href="#">시계</a></li>
+                                  <li><a href="#">아이웨어</a></li>
+                                  <li><a href="#">넥타이</a></li>
+                                  <li><a href="#">벨트</a></li>
+                                  <li><a href="#">지갑, 카드케이스</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="flexcol">
+                              <div class="row">
+                                <h4>Top Brands</h4>
+                                <ul class="brands">
+                                  <li><a href="#">OURSELVES</a></li>
+                                  <li><a href="#">BELIER</a></li>
+                                  <li><a href="#">TOMASMORE</a></li>
+                                  <li><a href="#">87MM</a></li>
+                                  <li><a href="#">PATAGONIA</a></li>
+                                  <li><a href="#">LAFUDGESTORE</a></li>
+                                  <li><a href="#">THISISNEVERTHAT</a></li>
+                                </ul>
+                                <a href="#" class="view-all"
+                                  >View all brands<i
+                                    class="ri-arrow-right-line"
+                                  ></i
+                                ></a>
+                              </div>
+                            </div>
+                            <div class="flexcol products">
+                              <div class="row">
+                                <div class="media">
+                                  <div class="theumbnail">
+                                    <img
+                                      src="goodbye-men.png"
+                                      alt="goodbye_winter"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="#">Look Book </a>
+                    </li>
+                    <li>
+                      <a href="weather.html" class="special_category"
+                        >T-emperature
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="right">
+                <!--<div class="search-box">
+                    <form action="" class="search">
+                      <input type="search" placeholder="Search for products" />
+                      <button type="submit">Search</button>
+                    </form>
+                  </div>-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--header-->
+
+    <!--my page-->
+    <section class="mypage_wrap">
+        <div class="my_wrap">
+            <div class="left_section">
+                <div class="myshop_category">
+                    <div class="myshop_category_top">
+                      <h3>@@@님</h3>
+                    </div>
+                    <div class="myshop_category_bottom">
+                    <h4>나의 쇼핑정보</h4>
+                    <ul>
+                        <li><a>주문배송조회</a></li>
+                        <li><a>취소/교환/반품 내역</a></li>
+                        <li><a>상품 리뷰</a></li>
+                        <li><a>적립금 내역</a></li>
+                        <li><a>쿠폰 내역</a></li>
+                    </ul>
+                    <h4>나의 계정설정</h4>
+                    <ul>
+                        <li><a>회원 정보수정</a></li>
+                        <li><a>멤버십등급</a></li>
+                    </ul>
+                    <h4>고객센터</h4>
+                    <ul>
+                        <li><a style="font-weight: 700;">1:1 문의내역</a></li>
+                        <li><a>상품 Q&A내역</a></li>
+                        <li><a>FAQ</a></li>
+                        <li><a>고객의 소리</a></li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="right_section">
+                <div class="myshop_area">
+                    <div class="title_area"></div>
+                    <div class="benefit">
+                        <ul>
+                            <li><a>
+                                <span class="benefit_icons"><i class="ri-money-dollar-circle-line"></i></span>
+                                <span class="benefit_data"><span>0원</span></span>
+                                <span class="benefit_title">총적립금</span>
+                            </a></li>
+
+                            <li><a>
+                                <span class="benefit_icons"><i class="ri-coupon-3-line"></i></span>
+                                <span class="benefit_data"><span>0원</span></span>
+                                <span class="benefit_title">쿠폰</span>
+                            </a></li>
+
+                            <li><a>
+                                <span class="benefit_icons"><i class="ri-checkbox-circle-line"></i></span>
+                                <span class="benefit_data"><span>0원 (0회)</span></span>
+                                <span class="benefit_title">총주문</span>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <section class="my_enquiry">
+                      <div class="my_enquiry_info">
+                          <h3>문의작성</h3>
+                          <div class="sub_content_wrap">
+                              <ul>
+                                  <li>제품 사용, 오염, 전용 박스 손상, 라벨 제거, 사은품 및 부속 사용/분실 시, 교환/환불이 불가능 합니다. </li>
+                                  <li>교환을 원하시는 상품(사이즈)의 재고가 부족 시, 교환이 불가합니다.</li>
+                                  <li>1:1문의 처리 내역은 마이페이지>1:1문의를 통해 확인하실 수 있습니다.</li>
+                                  <li>상품 정보(사이즈, 실측, 예상 배송일 등) 관련 문의는 해당 상품 문의에 남기셔야 빠른 답변이 가능합니다.</li>
+                              </ul>
+                          </div>
+                        </div>
+                        <section>
+                          <form class="insert" method="post">
+                        <div class="my_table_enquiry">
+                          <table class="my_table_title">
+                            <tbody>
+                              <tr>
+                                <th>문의유형</th>
+                                <td>
+                                  <div class="enquiry_type" >
+                                    <ul class="enquiry_type_list">
+                                      <li><button onclick="showOptions('delivery')">배송</button></li>
+                                      <li><button onclick="showOptions('order')">주문/결제</button></li>
+                                      <li><button onclick="showOptions('cancel')">취소/교환/환불</button></li>
+                                      <li><button onclick="showOptions('member')">회원정보</button></li>
+                                      <li><button onclick="showOptions('product')">상품</button></li>
+                                      <li><button onclick="showOptions('service')">서비스</button></li>
+                                    </ul>
+                                    <div class="enquiry_type_select">
+                                      <select name="type" id="type">
+                                        <option>문의 유형을 선택해주세요.</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th>제목</th>
+                                <td>
+                                  <div >
+                                    <input type="text" placeholder="제목을 입력해주세요."
+                                    id="title" name="title">
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th>내용</th>
+                                <td>
+                                  <div >
+                                    <textarea placeholder="내용을 입력해주세요."
+                                    id="content" name="content"></textarea>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <div>
+                            <input type="submit" class="insertBtn" value="완료" />
+                          </div>
+                        </form>
+                      </section>
+                        </div>
+                    </section>  
+                    </div>
+                    </div>
+                    </div>
+                    </section>
+<!--my page-->
+
+    <!--footer-->
+    <footer>
+      <div class="footer_container">
+        <div class="footer_top">
+          <!--cs_section-->
+          <div class="cs_section">
+            <div class="cs_center">
+              <p class="top">고객센터 1588-1588</p>
+              <p class="bottom">
+                운영시간 : 평일 09:00 - 17:30 (점심시간 12:00 - 13 : 00 제외)
+              </p>
+            </div>
+            <div class="cs_section_bottonBox">
+              <a href="">FAQ<span></span></a>
+              <a href="">1:1 문의<span></span></a>
+            </div>
+          </div>
+          <!--cs_section-->
+          <div class="foot_bottom">
+            <div class="menu_section">
+              <ul class="menu_list">
+                <li>
+                  <h2 class="title">ABOUT US</h2>
+                  <a href="">T-emperature 소개</a>
+                  <a href="">인재채용</a>
+                </li>
+                <li>
+                  <h2 class="title">MY ORDER</h2>
+                  <a href="">주문배송</a>
+                  <a href="">취소/교환/반품 내역</a>
+                  <a href="">상품 리뷰내역</a>
+                </li>
+                <li>
+                  <h2 class="title">MY ACCOUNT</h2>
+                  <a href="">회원정보수정</a>
+                  <a href="">회원등급</a>
+                  <a href="">마일리지현황</a>
+                  <a href="">쿠폰</a>
+                </li>
+                <li>
+                  <h2 class="title">HELP</h2>
+                  <a href="">상품 Q&A내역</a>
+                  <a href="">공지사항</a>
+                  <a href="">고객의소리</a>
+                </li>
+              </ul>
+            </div>
+            <div class="notice_section">
+              <h2 class="title">NOTICE</h2>
+              <ul>
+                <li>
+                  <a href=""
+                    >[공지] 유효기간 만료 마일리지 일괄 소멸 예정 안내</a
+                  >
+                </li>
+                <li>
+                  <a href=""
+                    >[공지] 현대카드 12개월 무이자 할부 관련 변경 안내 (시행일 :
+                    2024년 02월 07일)</a
+                  >
+                </li>
+                <li>
+                  <a href=""
+                    >[공지] 개인정보 처리방침 개정 사전 안내 (시행일 : 2024년
+                    01월 24일)
+                  </a>
+                </li>
+                <li>
+                  <a href="">[공지] 현대카드 청구할인 해톅 제외 카드 안내</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer_info">
+            <div class="footer_documentation">
+              <a href="">개인정보처리방침</a>
+              <a href="">이용약관</a>
+            </div>
+            <div class="footer_info_crop">
+              <div class="crop_wrap">
+                <d1 class="item">
+                  <dt>상호명 : </dt>
+                  <dd>주식회사 무신사 (MUSINSA Co., Ltd)</dd>
+                </d1>
+                <d1 class="item">
+                  <dt>사업장 소재지 :  </dt>
+                  <dd>서울특별시 성동구 아차산로13길 11, (성수동2가 무신사캠퍼스 엔1)</dd>
+                </d1>
+                <d1 class="item">
+                  <dt>팩스 : </dt>
+                  <dd>010-0000-0000</dd>
+                </d1>
+                <d1 class="item">
+                  <dt>통신판매업신고 : </dt>
+                  <dd>2022-서울강남-1229</dd>
+                </d1>
+              </div>
+              <div class="crop_wrap">
+                <d1 class="item">
+                  <dt>전화번호 : </dt>
+                  <dd>1644-0560</dd>
+                </d1>
+                <d1 class="item">
+                  <dt>이메일 : </dt>
+                  <dd>0000@tcmail.co.kr</dd>
+                </d1>
+                <d1 class="item">
+                  <dt>대표 : </dt>
+                  <dd>이가영</dd>
+                </d1>
+                <d1 class="item">
+                  <dt>개인정보 보호책임자 : </dt>
+                  <dd>이가영</dd>
+                </d1>
+              </div>
+              <div class="crop_wrap">
+                <p>일부 상품의 경우 TC는 통신파냄의 당사자가 아닌 통신판매자중개자로서 상품, 거래에 대한 책임이 제한될 수 있으므로, 각 상품 페이지에서 구체적인 내용을 확인하시기 바랍니다.</p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </footer>
+    <!--footer-->
+    <!--javascript-->
+    <script>
+      function showOptions(type) {
+  var selectBox = document.getElementById("type");
+  selectBox.innerHTML = "";
+
+  var options = [];
+
+  switch (type) {
+    case "delivery":
+      options = ["문의 유형을 선택해주세요.", "예약배송", "기타", "배송일정"];
+      break;
+    case "order":
+      options = ["문의 유형을 선택해주세요.", "결제수단", "주문변경", "기타"];
+      break;
+    case "cancel":
+      options = [
+        "문의 유형을 선택해주세요.",
+        "주문취소",
+        "교환/반품",
+        "환불/반품",
+      ];
+      break;
+    case "member":
+      options = [
+        "문의 유형을 선택해주세요.",
+        "가입/인증",
+        "로그인/정보",
+        "탈퇴/기타",
+      ];
+      break;
+    case "product":
+      options = ["문의 유형을 선택해주세요.", "상품문의", "불량/하자", "CS"];
+      break;
+    case "service":
+      options = ["문의 유형을 선택해주세요.", "고객센터", "신고", "기타"];
+      break;
+    default:
+      options = ["문의 유형을 선택해주세요."];
+      break;
+  }
+
+  options.forEach(function (optionText) {
+    var option = document.createElement("option");
+    option.text = optionText;
+    selectBox.add(option);
+  });
+
+  var buttons = document.querySelectorAll(".enquiry_type_list li button");
+  buttons.forEach(function (btn) {
+    btn.classList.remove("selected");
+  });
+  document.getElementById(type + "Btn").classList.add("selected");
+}
+
+    </script>
+    <!--javascript-->
+  </body>
+</html>
+
+-------------------------------------------
+
+const express = require("express");
+const mysql = require("./mysql");
+const router = express.Router();
+
+router.get("/", function (request, response) {
+  response.render("insert");
+});
+
+router.post("/", function (request, response) {
+  const body = request.body;
+
+  mysql.query(
+    "INSERT INTO enquiry(type,title,content,regdate) values(?,?,?,?,now())",
+    [body.type, body.title, body.content],
+    function (error, results) {
+      if (!error) {
+        console.log("자료 1개를 삽입하였습니다.");
+        response.redirect("/");
+        /*res.send(
+          "<script> alert('문의사항이 등록되었습니다.'); location.href='/qna';</script>"
+        );*/
+      } else {
+        console.log("Error");
+      }
+    }
+  );
+});
+
+module.exports = router;
+
