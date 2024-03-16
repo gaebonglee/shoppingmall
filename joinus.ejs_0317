@@ -12,7 +12,7 @@
   <body>
     <%-include('main_header.ejs')%>
     <!--join form-->
-    <form method="post">
+    <form method="post" action="/joinus">
       <div id="contents" class="content-grid">
         <div class="join-page">
           <div class="base-table-typewrite">
@@ -26,6 +26,7 @@
                       name="member_id"
                       class="inputTypeText"
                       type="text"
+                      required
                     />
                   </td>
                   <td class="join_guide">
@@ -52,6 +53,7 @@
                       class="inputTypeText"
                       type="text"
                       placeholder="특수문자 !@#$%^&*만 입력가능"
+                      required
                     />
                   </td>
                   <td class="join_guide">
@@ -93,6 +95,7 @@
                       name="member_name"
                       class="inputTypeText"
                       type="text"
+                      required
                     />
                     <span id="namemsg"> </span>
                   </td>
@@ -106,18 +109,20 @@
                       name="member_mobile_num"
                       maxlength="11"
                       type="text"
+                      required
                     />
                     <tr>
                       <th scope="row">이메일</th>
                       <td class="input_td">
                         <input
-                          id="email"
-                          name="email"
-                          fw-filter="isFill&amp;isEmail"
-                          type="text"
-                          class="inputTypeText"
-                        />
+                        id="member_email"
+                        name="member_email"
+                        class="inputTypeText"
+                        type="text"
+                        required
+                      />
                         <span id="emailmsg"> </span>
+                        
                       </td>
                     </tr>
                   </td>
@@ -203,10 +208,7 @@
               </div>
 
               <div class="join-button">
-                <button
-                  type="submit"
-                  class="btnSubmit sizeM"
-                  onclick="location.href='/login'"
+                <button id="join-button" type="submit" class="btnSubmit sizeM"
                 >
                   회원가입
               </div>
@@ -310,7 +312,7 @@ individualCheckboxes.forEach(function (checkbox) {
 });
 
 // 이벤트 리스너 등록
-document
+  document
   .getElementById("member_id")
   .addEventListener("input", checkIdConditions);
 document
@@ -324,19 +326,14 @@ document.querySelectorAll("#yes_agree").forEach((checkbox) => {
   checkbox.addEventListener("change", checkIndividualAgree);
 });
 
-// 페이지 로드 시 한 번 실행하여 초기 상태 설정
-checkIdConditions();
-checkPasswordConditions();
-checkPasswordMatch();
-checkAllAgree();
-
+//회원가입 버튼
 const joinButton = document.getElementById("join-button");
 
 joinButton.addEventListener("click", function() {
     const member_id = document.getElementById("member_id").value;
     const member_pw1 = document.getElementById("member_pw1").value;
     const member_name = document.getElementById("member_name").value;
-    const mobile1 = document.getElementById("member_mobile_num").value;
+    const member_mobile_num = document.getElementById("member_mobile_num").value;
     const email = document.getElementById("member_email").value;
 
     fetch("/joinus", {
@@ -352,23 +349,13 @@ joinButton.addEventListener("click", function() {
         member_email: member_email
       })
     })
-    .then(response => response.json())
     .then(data => {
-      alert(data.message);
-      window.location.href = "/login";
     })
     .catch(error => console.error("Error:", error));
-  });
+});
+
 </script>
 <!--join form-->
-<form id="join-form">
-  <input type="text" id="member_id" placeholder="아이디" required>
-  <input type="password" id="member_pw1" placeholder="비밀번호" required>
-  <input type="text" id="member_name" placeholder="이름" required>
-  <input type="text" id="mobile_num" placeholder="휴대폰 번호" required>
-  <input type="email" id="member_email" placeholder="이메일" required>
-  <button type="button" id="join-button">회원가입</button>
-</form>
 <%-include('main_footer.ejs')%>
 </body>
 </html>
