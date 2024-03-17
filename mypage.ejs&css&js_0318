@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>LUKS</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="default.css" />
+    <link rel="stylesheet" href="mypage.css" />
+    <link rel="stylesheet" href="mypage_base.css" />
+  </head>
+  <body>
+    <%-include('main_header.ejs')%>
+    <!--my page-->
+      <section class="mypage_wrap">
+        <div class="my_wrap">
+          <div class="left_section">
+            <div class="myshop_category">
+              <div class="myshop_category_top">
+                <h3>@@@님</h3>
+              </div>
+              <div class="myshop_category_bottom">
+                <h4>나의 쇼핑정보</h4>
+                <ul>
+                  <li><a>주문배송조회</a></li>
+                  <li><a>취소/교환/반품 내역</a></li>
+                  <li><a>상품 리뷰</a></li>
+                  <li><a>적립금 내역</a></li>
+                  <li><a>쿠폰 내역</a></li>
+                </ul>
+                <h4>나의 계정설정</h4>
+                <ul>
+                  <li><a>회원 정보수정</a></li>
+                  <li><a>멤버십등급</a></li>
+                </ul>
+                <h4>고객센터</h4>
+                <ul>
+                  <li><a href="/mantoman_list">1:1 문의내역</a></li>
+                  <li><a>상품 Q&A내역</a></li>
+                  <li><a>FAQ</a></li>
+                  <li><a>고객의 소리</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="right_section">
+            <div class="myshop_area">
+              <div class="title_area"></div>
+              <div class="benefit">
+                <ul>
+                  <li>
+                    <p class="benefit_icons">
+                      <i class="ri-money-dollar-circle-line"></i>
+                    </p>
+                    <p class="benefit_data">0원</p>
+                    <p class="benefit_title">총적립금</p>
+                  </li>
+                  <li>
+                    <p class="benefit_icons"><i class="ri-coupon-3-line"></i></p>
+                    <p class="benefit_data">0원</p>
+                    <p class="benefit_title">쿠폰</p>
+                  </li>
+                  <li>
+                    <p class="benefit_icons">
+                      <i class="ri-checkbox-circle-line"></i>
+                    </p>
+                    <p class="benefit_data"><span>0원</span><span>(0회)</span></p>
+                    <p class="benefit_title">총주문</p>
+                  </li>
+                </ul>
+              </div>
+            <div class="oreder_state">
+              <div class="oreder_state_wrap">
+                나의 주문현황 (최근 3개월 기준)
+              </div>
+              <div class="state">
+                <ul class="state_ul">
+                  <li>
+                    <a><span>0</span></a>
+                    <span class="label">입금전</span>
+                  </li>
+                  <li>
+                    <a><span>0</span></a>
+                    <span class="label">배송준비중</span>
+                  </li>
+                  <li>
+                    <a><span>0</span></a>
+                    <span class="label">배송중</span>
+                  </li>
+                  <li>
+                    <a><span>0</span></a>
+                    <span class="label">배송완료</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="order_history">
+              <div class="order_list_wrap">주문내역 조회</div>
+              <div class="order_list">
+                <div class="list_item_wrap">
+                  <div class="list_item">
+                    <div class="order_record">
+                      <div class="order_number">
+                        <span class="date"></span>
+                        <span class="number"></span>
+                        <a class="detail_btn"></a>
+                      </div>
+                      <div class="order_info">
+                        <div class="info_top">
+                          <div class="order_item_img"></div>
+                          <div class="description"></div>
+                        </div>
+                        <div class="info_foot">
+                          <div class="left">
+                            <span class="txt_status">
+                              주문 내역이 없습니다.</span
+                            >
+                          </div>
+                          <div class="right">
+                            <ul>
+                              <li><button>배송조회</button></li>
+                              <li><button>구매후기</button></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--my page-->
+    <%-include('main_footer.ejs')%>
+  </body>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------
+
+a {
+  cursor: pointer;
+}
+.mypage_wrap {
+  padding-top: 10rem;
+}
+
+.my_wrap {
+  padding: 0 3.125rem 5rem 3.125rem;
+  position: relative;
+  min-width: 900px;
+  max-width: 1500px;
+  margin: 40px auto 0;
+}
+
+/*left*/
+.myshop_category_top {
+  margin-bottom: 38px;
+}
+
+.myshop_category_top > h3 {
+  font-size: 30px;
+}
+
+.myshop_category_bottom > h4 {
+  margin-bottom: 8px;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 800;
+  color: #303033;
+}
+
+.myshop_category_bottom > ul {
+  margin-bottom: 31px;
+}
+
+.myshop_category_bottom > ul > li > a {
+  display: inline-block;
+  padding: 10px 0;
+  font-size: 15px;
+  color: #5d5d5d;
+  font-weight: 200;
+}
+
+/*right*/
+
+.right_section {
+  width: 100%;
+}
+
+.myshop_area {
+  position: relative;
+}
+
+.benefit {
+  border-bottom: 1px solid #e5e5e5;
+  background-color: #303033;
+  color: white;
+}
+
+.benefit ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.benefit ul li {
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+.order_list_wrap,
+.oreder_state_wrap {
+  margin: 3rem 0 1rem;
+  padding-bottom: 1rem;
+  font-size: 18px;
+  border-bottom: 3px solid #303033;
+}
+
+.oreder_state .state {
+  overflow: hidden;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.state_ul {
+  display: flex;
+}
+
+.state_ul > li > a > span {
+  color: #4a4a4a;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.info_foot .right button {
+  display: none;
+}
+/*-----------media screen
+    ------------------------*/
+@media screen and (min-width: 541px) {
+  .my_wrap {
+    display: flex;
+  }
+
+  .left_section {
+    width: 230px;
+    padding: 0 50px 0 0;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .benefit > ul > li {
+    flex: 1;
+    padding: 2rem 0 2rem;
+  }
+
+  .benefit .icons {
+    font-size: 20px;
+  }
+
+  .state_ul > li {
+    position: relative;
+    width: 25%;
+    padding: 35px 0 33px;
+    text-align: center;
+  }
+
+  .state_ul .label {
+    display: block;
+    margin: 10px 0 7px;
+    font-size: 14px;
+    color: #5d5d5d;
+  }
+
+  .state_ul:not(:last-child)::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 13px;
+    height: 13px;
+    margin: -10px auto 0;
+    border-left: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    text-align: center;
+  }
+}
+.order_list_wrap,
+.oreder_state_wrap {
+  margin: 3rem 0 1rem;
+  padding-bottom: 1rem;
+  font-size: 18px;
+  border-bottom: 3px solid #303033;
+}
+
+.oreder_state .state {
+  overflow: hidden;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.state_ul {
+  display: flex;
+}
+
+.state_ul > li > a > span {
+  color: #4a4a4a;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.info_foot .right button {
+  display: none;
+}
+
+
+.mypage_wrap {
+  padding-top: 10rem;
+}
+
+.my_wrap {
+  padding: 0 3.125rem 5rem 3.125rem;
+  position: relative;
+  min-width: 900px;
+  max-width: 1500px;
+  margin: 40px auto 0;
+}
+
+/*left*/
+.myshop_category_top {
+  margin-bottom: 38px;
+}
+
+.myshop_category_top > h3 {
+  font-size: 30px;
+}
+
+.myshop_category_bottom > h4 {
+  margin-bottom: 8px;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 800;
+  color: #303033;
+}
+
+.myshop_category_bottom > ul {
+  margin-bottom: 31px;
+}
+
+.myshop_category_bottom > ul > li > a {
+  display: inline-block;
+  padding: 10px 0;
+  font-size: 15px;
+  color: #5d5d5d;
+  font-weight: 200;
+}
+
+/*right_benefit*/
+
+.right_section {
+  width: 100%;
+}
+
+.myshop_area {
+  position: relative;
+}
+
+.benefit {
+  border-bottom: 1px solid #e5e5e5;
+  ---------------------------------------------------------------------------------
+
+  // 모듈과 변수 선언
+const express = require("express");
+const mysql = require("./mysql");
+
+// 라우터 객체 생성
+const router = express.Router();
+
+// 페이지 라우트
+router.get("/", function (request, response) {
+  mysql.query("SELECT * FROM userinfo", function (error, results) {
+    if (!error) {
+      response.render("mypage", { data: results });
+    } else {
+      console.log("Error");
+    }
+  });
+});
+module.exports = router;
+
+  background-color: #303033;
+  color: white;
+}
+
+.benefit ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.benefit ul li {
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+/*-----------media screen
+    ------------------------*/
+@media screen and (min-width: 541px) {
+  .my_wrap {
+    display: flex;
+  }
+
+  .left_section {
+    width: 230px;
+    padding: 0 50px 0 0;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .benefit > ul > li {
+    flex: 1;
+    padding: 2rem 0 2rem;
+  }
+
+  .benefit .icons {
+    font-size: 20px;
+  }
+
+  .state_ul > li {
+    position: relative;
+    width: 25%;
+    padding: 35px 0 33px;
+    text-align: center;
+  }
+
+  .state_ul .label {
+    display: block;
+    margin: 10px 0 7px;
+    font-size: 14px;
+    color: #5d5d5d;
+  }
+
+  .state_ul:not(:last-child)::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 13px;
+    height: 13px;
+    margin: -10px auto 0;
+    border-left: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    text-align: center;
+  }
+}
+
