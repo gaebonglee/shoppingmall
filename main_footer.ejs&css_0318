@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>main_footer</title>
+  <link rel="stylesheet" href="main_footer.css" />
+</head>
+<body>
+      <!--footer-->
+      <footer>
+        <div class="footer_container">
+          <div class="footer_top">
+            <!--cs_section-->
+            <div class="cs_section">
+              <div class="cs_center">
+                <p class="top">고객센터 1588-1588</p>
+                <p class="bottom">
+                  운영시간 : 평일 09:00 - 17:30 (점심시간 12:00 - 13 : 00 제외)
+                </p>
+              </div>
+              <div class="cs_section_bottonBox">
+                <a href="">FAQ<span></span></a>
+                <a href="">1:1 문의<span></span></a>
+              </div>
+            </div>
+            <!--cs_section-->
+            <div class="foot_bottom">
+              <div class="menu_section">
+                <ul class="menu_list">
+                  <li>
+                    <h2 class="title">ABOUT US</h2>
+                    <a href="">T-emperature 소개</a>
+                    <a href="">인재채용</a>
+                  </li>
+                  <li>
+                    <h2 class="title">MY ORDER</h2>
+                    <a href="">주문배송</a>
+                    <a href="">취소/교환/반품 내역</a>
+                    <a href="">상품 리뷰내역</a>
+                  </li>
+                  <li>
+                    <h2 class="title">MY ACCOUNT</h2>
+                    <a href="">회원정보수정</a>
+                    <a href="">회원등급</a>
+                    <a href="">마일리지현황</a>
+                    <a href="">쿠폰</a>
+                  </li>
+                  <li>
+                    <h2 class="title">HELP</h2>
+                    <a href="">상품 Q&A내역</a>
+                    <a href="">공지사항</a>
+                    <a href="">고객의소리</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="notice_section">
+                <h2 class="title">NOTICE</h2>
+                <ul>
+                  <li>
+                    <a href=""
+                      >[공지] 유효기간 만료 마일리지 일괄 소멸 예정 안내</a
+                    >
+                  </li>
+                  <li>
+                    <a href=""
+                      >[공지] 현대카드 12개월 무이자 할부 관련 변경 안내 (시행일 :
+                      2024년 02월 07일)</a
+                    >
+                  </li>
+                  <li>
+                    <a href=""
+                      >[공지] 개인정보 처리방침 개정 사전 안내 (시행일 : 2024년
+                      01월 24일)
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">[공지] 현대카드 청구할인 해톅 제외 카드 안내</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer_info">
+              <div class="footer_documentation">
+                <a href="">개인정보처리방침</a>
+                <a href="">이용약관</a>
+              </div>
+              <div class="footer_info_crop">
+                <div class="crop_wrap">
+                  <d1 class="item">
+                    <dt>상호명 : </dt>
+                    <dd>주식회사 무신사 (MUSINSA Co., Ltd)</dd>
+                  </d1>
+                  <d1 class="item">
+                    <dt>사업장 소재지 :  </dt>
+                    <dd>서울특별시 성동구 아차산로13길 11, (성수동2가 무신사캠퍼스 엔1)</dd>
+                  </d1>
+                  <d1 class="item">
+                    <dt>팩스 : </dt>
+                    <dd>010-0000-0000</dd>
+                  </d1>
+                  <d1 class="item">
+                    <dt>통신판매업신고 : </dt>
+                    <dd>2022-서울강남-1229</dd>
+                  </d1>
+                </div>
+                <div class="crop_wrap">
+                  <d1 class="item">
+                    <dt>전화번호 : </dt>
+                    <dd>1644-0560</dd>
+                  </d1>
+                  <d1 class="item">
+                    <dt>이메일 : </dt>
+                    <dd>0000@tcmail.co.kr</dd>
+                  </d1>
+                  <d1 class="item">
+                    <dt>대표 : </dt>
+                    <dd>이가영</dd>
+                  </d1>
+                  <d1 class="item">
+                    <dt>개인정보 보호책임자 : </dt>
+                    <dd>이가영</dd>
+                  </d1>
+                </div>
+                <div class="crop_wrap">
+                  <p>일부 상품의 경우 TC는 통신파냄의 당사자가 아닌 통신판매자중개자로서 상품, 거래에 대한 책임이 제한될 수 있으므로, 각 상품 페이지에서 구체적인 내용을 확인하시기 바랍니다.</p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </footer>
+      <!--footer-->
+</body>
+</html>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+/*---------------
+  ------footer-----
+  ----------------*/
+
+.footer_container {
+  margin: 0 auto;
+  padding: 0 3em;
+}
+
+.footer_container .title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #303033;
+  line-height: 26px;
+}
+
+.cs_section,
+.cs_section_bottonBox {
+  display: flex;
+}
+
+.cs_section {
+  position: relative;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.cs_center .top {
+  color: #000;
+  font-family: Pretendard;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22.5px;
+}
+
+.cs_center .bottom {
+  color: #5d5d5d;
+  font-family: Pretendard;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16.32px;
+}
+
+.cs_section_bottonBox {
+  gap: 0.5rem;
+}
+
+.cs_section_bottonBox a {
+  position: relative;
+  padding: 0 0 0 14px;
+  border-radius: 2px;
+  background: #303033;
+  font-size: 15px;
+  color: #fff;
+  line-height: 30px;
+  width: 94px;
+  box-sizing: border-box;
+  margin-left: 4px;
+  border: none;
+}
+
+.foot_bottom {
+  display: table;
+  width: 100%;
+  min-height: 160px;
+  margin-top: 17px;
+  padding: 9px 0 6px;
+  border-top: 1px solid #e4e4e4;
+  table-layout: fixed;
+  box-sizing: border-box;
+}
+
+.foot_bottom .menu_section,
+.foot_bottom .notice_section {
+  vertical-align: top;
+}
+
+.foot_bottom .menu_section {
+  float: right;
+}
+
+.menu_section .menu_list li {
+  float: left;
+  margin-right: 6px;
+}
+
+.menu_section .menu_list li .title {
+  padding-right: 103px;
+}
+
+.menu_section .menu_list li a {
+  display: block;
+  margin-top: 2px;
+  font-size: 12px;
+  color: #303033;
+  line-height: 24px;
+}
+
+.foot_bottom .notice_section {
+  overflow: hidden;
+  padding-right: 20px;
+}
+
+.foot_bottom .notice_section li {
+  padding-right: 30px;
+}
+
+.foot_bottom .notice_section li a {
+  display: inline-block;
+  overflow: hidden;
+  max-width: 98%;
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #303033;
+  text-decoration: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.footer_info {
+  position: relative;
+  padding-right: 200px;
+  border-top: 1px solid #e4e4e4;
+}
+
+.footer_documentation {
+  margin: 12px 0 4px;
+  font-size: 0;
+}
+
+.footer_documentation a:first-child {
+  font-weight: 700;
+}
+
+.footer_documentation a {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+  padding-right: 2rem;
+}
+
+.footer_info {
+  position: relative;
+  padding-right: 200px;
+  border-top: 1px solid #e4e4e4;
+}
+.footer_info_crop {
+  margin: 0 0 50px;
+  font-size: 10px;
+  line-height: 24px;
+  color: #5d5d5d;
+}
+
+.footer_info_crop > div {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.footer_info_crop .item,
+.footer_info_crop .item dt {
+  float: left;
+}
+.footer_info_crop .item dd {
+  float: left;
+  padding: 0 10px 0 5px;
+}
+
+/*------------------
+    ---media screen-----
+    -------------------*/
+
+@media screen and (min-width: 541px) {
+  .header_container {
+    padding: 0 3em;
+  }
+  .desktop-hide {
+    display: none;
+  }
+  .mobile-hide {
+    display: block;
+  }
+  .logo a {
+    margin-right: 2em;
+  }
+  .header-nav {
+    padding: 0;
+    margin: 0;
+    border-bottom: 0;
+  }
+  .header-nav .right li > a {
+    margin-left: 1em;
+  }
+
+  /*mega menu*/
+  nav .mega {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: auto;
+    left: 0;
+    right: 0;
+    padding: 2.5rem 5rem 0 5rem;
+    line-height: 2em;
+    background-color: rgb(245, 245, 245);
+    box-shadow: rgb(0, 0, 0 / 20%) 0 30px 20px 30px;
+    z-index: 100;
+    display: none;
+  }
+  nav li.has-child:hover .mega {
+    display: block;
+  }
+
+  nav .mega .container {
+    padding: 0 1rem;
+  }
+  nav .mega .wrapper {
+    display: flex;
+  }
+  nav .mega h4 {
+    font-size: 0.8em;
+    text-transform: uppercase;
+  }
+  nav .mega ul {
+    font-size: 13px;
+  }
+  nav .mega .brands {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 180px;
+  }
+
+  nav .mega .brands li {
+    min-width: 100px;
+  }
+
+  nav .mega .view-all {
+    margin-top: 1em;
+  }
+  nav .mega .products {
+    flex: 2;
+    padding: 0;
+    align-items: center;
+    position: relative;
+  }
+  nav .mega .products .row {
+    width: 100%;
+  }
+
+  nav .mega .products .media {
+    height: 400px;
+  }
+  nav .mega .products img {
+    padding-left: 20px;
+    width: 250px;
+  }
+
+  .header-main .right {
+    max-width: 600px;
+    margin-left: auto;
+  }
+}
+
+/*--------footer----------*/
+.footer_container {
+  min-width: 900px;
+}
