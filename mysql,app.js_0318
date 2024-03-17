@@ -1,0 +1,59 @@
+const mysql = require("mysql2");
+// connection 객체 생성
+const connection = mysql.createConnection({
+  user: "root",
+  password: "****",
+  database: "shoppingmall",
+  port: ****,
+});
+module.exports = connection;
+
+----------------------------------------
+
+const express = require("express");
+const mysql = require("./routes/mysql");
+const ejs = require("ejs");
+const bodyParser = require("body-parser");
+const session = require("express-session");
+const app = express();
+
+mysql.connect();
+
+app.set("views", __dirname + "/views");
+app.set("view engine", "ejs");
+
+app.use(express.static("uploads"));
+app.use(express.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+
+app.use(express.static(__dirname + "/public"));
+
+app.use(session({
+  secret: 'roqhdsql12^^', 
+  resave: false, 
+  saveUninitialized: false 
+}));
+
+
+const homeRouter = require("./routes/home");
+const loginRouter = require("./routes/login");
+const joinusRouter = require("./routes/joinus");
+const mypageRouter = require("./routes/mypage");
+const mantoman_listRouter = require("./routes/mantoman_list");
+const insertRouter = require("./routes/insert");
+const deleteRouter = require("./routes/delete");
+
+app.use("/", homeRouter);
+app.use("/login", loginRouter);
+app.use("/joinus", joinusRouter);
+app.use("/mypage", mypageRouter);
+app.use("/mantoman_list", mantoman_listRouter);
+app.use("/insert", insertRouter);
+app.use("/delete", deleteRouter);
+
+app.listen(5500, function () {
+  console.log("Server Running at http://127.0.0.1:5500");
+});
+
+
+  
