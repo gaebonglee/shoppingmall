@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>main_header</title>
+    <link rel="stylesheet" href="main_header.css" />
+  </head>
+  <body>
+    <!--header-->
+    <header>
+      <div class="main_header">
+        <div class="header-top mobile-hide">
+          <div class="header_container">
+            <div class="wrapper flexitem">
+              <div class="left">
+                <div class="main_logo">
+                  <a href="/" class="main_link"
+                    ><img src="image/luks.jpg" width="150"
+                  /></a>
+                </div>
+              </div>
+              <div class="right">
+                <ul class="flexitem second-links">
+                  <li>
+                    <a href="#">
+                      <div class="icon-large">
+                        <i class="ri-search-2-line"></i>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/mypage">
+                      <div class="icon-large">
+                        <i class="ri-user-line"></i>
+                        <div class="right_text"><p>MY</p></div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="icon-large">
+                        <i class="ri-heart-3-line"></i>
+                        <div class="right_text"><p>LIKE</p></div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="iscart">
+                      <div class="icon-large">
+                        <i class="ri-shopping-bag-line"></i>
+                        <div class="right_text"><p>BAG</p></div>
+                        <div class="fly-item">
+                          <span class="item-number">0</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/login">
+                      <div class="icon-large">
+                        <i class="ri-login-box-line"></i>
+                        <div class="right_text"><p>LOGIN</p></div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--header-top-->
+        <div class="header-nav">
+          <div class="header_container">
+            <div class="wrapper flexitem">
+              <a href="#" class="trigger desktop-hide">
+                <span class="i"><span class="ri-menu-2-line"></span></span
+              ></a>
+              <div class="left flexitem">
+                <nav class="mobile-hide">
+                  <ul class="flexitem second-links">
+                    <li><a href="#">Best</a></li>
+                    <li class="has-child">
+                      <a href="#"
+                        >Women
+                        <div class="icon-small">
+                          <i class="ri-arrow-down-s-line"></i>
+                        </div>
+                      </a>
+                      <div class="mega">
+                        <div class="container">
+                          <div class="wrapper">
+                            <div class="flexcol">
+                              <div class="row">
+                                <h4>의류</h4>
+                                <ul>
+                                  <li><a href="#">ALL</a></li>
+                                  <li><a href="#">상의</a></li>
+                                  <li><a href="#">바지</a></li>
+                                  <li><a href="#">치마</a></li>
+                                  <li><a href="#">스커트</a></li>
+                                  <li><a href="#">원피스</a></li>
+                                  <li><a href="#">셋업</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="flexcol">
+                              <div class="row">
+                                <h4>신발</h4>
+                                <ul>
+                                  <li><a href="#">ALL</a></li>
+                                  <li><a href="#">플랫, 로퍼</a></li>
+                                  <li><a href="#">부츠</a></li>
+                                  <li><a href="#">펌프스</a></li>
+                                  <li><a href="#">샌들</a></li>
+                                  <li><a href="#">슬리퍼, 뮬</a></li>
+                                  <li><a href="#">스니커즈</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="flexcol">
+                              <div class="row">
+                                <h4>악세서리</h4>
+                                <ul>
+                                  <li><a href="#">ALL</a></li>
+                                  <li><a href="#">주얼리</a></li>
+                                  <li><a href="#">모자</a></li>
+                                  <li><a href="#">시계</a></li>
+                                  <li><a href="#">아이웨어</a></li>
+                                  <li><a href="#">벨트</a></li>
+                                  <li><a href="#">지갑, 카드케이스</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="flexcol">
+                              <div class="row">
+                                <h4>Top Brands</h4>
+                                <ul class="brands">
+                                  <li><a href="#">DUNST</a></li>
+                                  <li><a href="#">MATIN KIM</a></li>
+                                  <li><a href="#">URAGO</a></li>
+                                  <li><a href="#">LOEUVRE</a></li>
+                                  <li><a href="#">TILLIDIE</a></li>
+                                  <li><a href="#">SIYAZU</a></li>
+                                  <li><a href="#">CELITAILS</a></li>
+                                </ul>
+                                <a href="#" class="view-all"
+                                  >View all brands<i
+                                    class="ri-arrow-right-line"
+                                  ></i
+                                ></a>
+                              </div>
+                            </div>
+                            <div class="flexcol products">
+                              <div class="row">
+                                <div class="media">
+                                  <div class="theumbnail">
+                                    <img
+                                      src="goodbye-women.png"
+                                      alt="goodbye_winter"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="has-child">
+                      <a href="#"
+                        >Men
+                        <div class="icon-small">
+                          <i class="ri-arrow-down-s-line"></i></div
+                      ></a>
+                      <div class="mega">
+                        <div class="container">
+                          <div class="wrapper">
+                            <div class="flexcol">
+                              <div class="row">
+                                <h4>의류</h4>
+                                <ul>
+                                  <li><a href="#">ALL</a></li>
+                                  <li><a href="#">아우터</a></li>
+                                  <li><a href="#">상의</a></li>
+                                  <li><a href="#">하의</a></li>
+                                  <li><a href="#">셋업</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="flexcol">
+                              <div class="row">
+                                <h4>신발</h4>
+                                <ul>
+                                  <li><a href="#">ALL</a></li>
+                                  <li><a href="#">스니커즈</a></li>
+                                  <li><a href="#">로퍼</a></li>
+                                  <li><a href="#">구두</a></li>
+                                  <li><a href="#">부츠</a></li>
+                                  <li><a href="#">샌들</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="flexcol">
+                              <div class="row">
+                                <h4>악세서리</h4>
+                                <ul>
+                                  <li><a href="#">ALL</a></li>
+                                  <li><a href="#">모자</a></li>
+                                  <li><a href="#">시계</a></li>
+                                  <li><a href="#">아이웨어</a></li>
+                                  <li><a href="#">넥타이</a></li>
+                                  <li><a href="#">벨트</a></li>
+                                  <li><a href="#">지갑, 카드케이스</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="flexcol">
+                              <div class="row">
+                                <h4>Top Brands</h4>
+                                <ul class="brands">
+                                  <li><a href="#">OURSELVES</a></li>
+                                  <li><a href="#">BELIER</a></li>
+                                  <li><a href="#">TOMASMORE</a></li>
+                                  <li><a href="#">87MM</a></li>
+                                  <li><a href="#">PATAGONIA</a></li>
+                                  <li><a href="#">LAFUDGESTORE</a></li>
+                                  <li><a href="#">THISISNEVERTHAT</a></li>
+                                </ul>
+                                <a href="#" class="view-all"
+                                  >View all brands<i
+                                    class="ri-arrow-right-line"
+                                  ></i
+                                ></a>
+                              </div>
+                            </div>
+                            <div class="flexcol products">
+                              <div class="row">
+                                <div class="media">
+                                  <div class="theumbnail">
+                                    <img
+                                      src="goodbye-men.png"
+                                      alt="goodbye_winter"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="#">Look Book </a>
+                    </li>
+                    <li>
+                      <a href="weather.html" class="special_category"
+                        >T-emperature
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="right">
+                <!--<div class="search-box">
+                      <form action="" class="search">
+                        <input type="search" placeholder="Search for products" />
+                        <button type="submit">Search</button>
+                      </form>
+                    </div>-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--header-->
+  </body>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+/*----------------
+----header line---
+-----------------*/
+
+.main_header {
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  z-index: 10000;
+}
+
+.header_container {
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+.column {
+  margin-left: -1em;
+  margin-right: -1em;
+}
+
+.column .row {
+  padding: 0 1em;
+}
+
+.flexwrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flexcenter {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+
+.flexitem {
+  display: flex;
+  align-items: center;
+}
+
+.flexcol {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+}
+
+.second-links a:hover {
+  color: #7c899a;
+}
+
+.icon-small,
+.icon-large {
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+}
+
+.icon-small {
+  font-size: 1.25em;
+  margin: auto;
+}
+
+.mobile-hide {
+  display: none;
+}
+
+/*.object-cover img {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+}*/
+
+.products .media {
+  position: relative;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.primary-button,
+.secondary-button,
+.light-button {
+  font-size: 13px;
+  padding: 0.9em 2em;
+  height: auto;
+  width: fit-content;
+  border-radius: 2em;
+  transform: 0.3s color 0.3s;
+}
+
+.primary-button {
+  background-color: rgb(255, 123, 0);
+  color: white;
+}
+.primary-button:hover {
+  background-color: #0a021c;
+}
+
+.secondary-button {
+  background-color: #453c5c;
+  color: white;
+}
+
+.secondary-button:hover {
+  background-color: #f2f3f5;
+  color: black;
+}
+
+.light-button {
+  background-color: #f2f3f5;
+}
+.light-button:hover {
+  background-color: #453c5c;
+  color: white;
+}
+
+.view-all {
+  font-size: 1rem;
+  display: flex;
+  gap: 1em;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+/*-------------------
+------ HEADER --------
+-------------------*/
+header li > a {
+  display: flex;
+  position: relative;
+  line-height: inherit;
+}
+
+header .main_logo {
+  padding-top: 1.25rem;
+}
+
+/*-------------------
+-----HEADER TOP------
+-------------------*/
+.header-top .wrapper {
+  font-weight: 300;
+  justify-content: space-between;
+  line-height: 2.5rem;
+}
+
+.header-top .wrapper ul {
+  gap: 2em;
+}
+
+.header-top li {
+  position: relative;
+}
+
+.header-top ul ul {
+  position: absolute;
+  left: -1em;
+  line-height: 2;
+  background-color: white;
+  z-index: 1;
+  display: none;
+}
+
+.header-top .right ul ul li a {
+  padding: 0.25em 1em;
+}
+
+.header-top li:hover ul {
+  display: block;
+}
+
+.icon-large {
+  font-size: 1.75rem;
+}
+
+.right_text p {
+  text-align: center;
+  font-size: 16px;
+  padding-left: 2px;
+}
+/*-------------------
+-----HEADER Nav------
+-------------------*/
+
+.header-nav {
+  padding: 0.5em 0;
+  margin-bottom: 1.5em;
+}
+.trigger {
+  font-size: 1.5em;
+  display: flex;
+  padding: 0.25em;
+  margin-right: 0.5em;
+}
+
+.logo a {
+  font-size: 1.75em;
+  position: relative;
+  font-weight: 800;
+  display: flex;
+  padding-left: 0.75em;
+  margin-right: 2em;
+}
+
+.header-nav nav > ul {
+  line-height: 100px;
+  gap: 4.5em;
+}
+
+/*sport위에 NEW 표시*/
+.fly-item {
+  position: absolute;
+  height: 13px;
+  font-size: 13px;
+  padding: 3px;
+  text-align: center;
+  line-height: 10px;
+  color: white;
+}
+
+nav .fly-item {
+  top: 50%;
+  margin-top: -24px;
+  width: 30px;
+  border-radius: 3px;
+  right: -32px;
+  background-color: rgb(255, 123, 0);
+}
+
+/*오른쪽 상단 메뉴*/
+.header_container .right {
+  top: 1em;
+  position: relative;
+  margin-left: auto;
+}
+
+.header_container .right .icon-large {
+  top: 0.5rem;
+  position: relative;
+}
+.header_container .right .fly-item {
+  bottom: 20px;
+  right: 25px;
+  width: 13px;
+  background-color: rgb(60, 60, 60);
+  border-radius: 50%;
+}
+
+.header_container .right .icon_text {
+  left: -10px;
+  padding-top: 13px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.mega .flexcol {
+  flex: 1;
+  min-width: 180px;
+  padding-right: 2.5em;
+  margin-bottom: 1.5em;
+  z-index: 1;
+}
+
+/*---------------------
+    -----Search Form-------
+    ----------------------*/
+
+/*.header_container .search-box {
+      padding-bottom: 15px;
+    }
+    .header-main .right {
+      flex: 1;
+    }
+    
+    form {
+      position: relative;
+    }
+    
+    form.search input {
+      line-height: 3em;
+      padding: 0 7em 0 0.5em;
+      outline: 0;
+      width: 26rem;
+      border-radius: 7px;
+      font-size: 0.9em;
+      font-weight: 300;
+    }
+    
+    form.search :where(span, button) {
+      position: absolute;
+      top: 0;
+      padding: 0.1em 1.5em;
+      font-size: 1em;
+      color: #7c899a;
+      height: 100%;
+    }
+    
+    form.search button {
+      right: 0;
+      border: 0;
+      outline: 0;
+      font-size: 1em;
+      font-weight: 600;
+      background-color: rgb(0, 0, 0);
+      color: white;
+      border-radius: 0 7px 7px 0;
+      transition: 0.3s;
+    }
+    
+    form.search button:hover {
+      background-color: rgb(255, 123, 0);
+    }*/
+
