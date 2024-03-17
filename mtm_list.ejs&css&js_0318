@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>LUKS</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="default.css" />
+    <link rel="stylesheet" href="mypage_base.css" />
+    <link rel="stylesheet" href="mantoman_list.css" />
+  </head>
+  <body>
+    <h1>List Page</h1>
+    <hr />
+    <section>
+      <a href="/insert" class="insertBtn">데이터추가</a>
+
+      <table class="listTable">
+        <tr class="listTableTr">
+          <th>번호</th>
+          <th>문의유형</th>
+          <th>제목</th>
+          <th></th>
+          <th>수정/삭제</th>
+        </tr>
+        <% data.forEach(function(item, index) { %>
+        <tr>
+          <td><%= item.bookid %></td>
+          <td><%= item.bookname %></td>
+          <td><%= item.publisher %></td>
+          <td><%= item.price %></td>
+          <td>
+            <a
+              href="/update/<%= item.bookid %>"
+              class="btn update"
+              title="수정"
+            >
+              <i class="fas fa-pencil-alt"></i>
+            </a>
+            <a
+              href="/delete/<%= item.bookid %>"
+              class="btn delete"
+              title="삭제"
+            >
+              <i class="fas fa-times"></i>
+            </a>
+          </td>
+        </tr>
+        <% }); %>
+      </table>
+    </section>
+  </body>
+</html>
+
+----------------------------------------------------------------------------------------------------
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-width: 1000px;
+  margin: 80px auto;
+}
+
+.insertBtn {
+  width: 80px;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.insertBtn:hover {
+  background-color: #0056b3;
+}
+
+.listTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+}
+
+td:nth-child(1) {
+  width: 10%;
+  text-align: center;
+}
+
+td:nth-child(2) {
+  width: 50%;
+  text-align: left;
+}
+
+td:nth-child(3) {
+  width: 15%;
+  text-align: center;
+}
+
+td:nth-child(4) {
+  width: 15%;
+  text-align: center;
+}
+
+td:nth-child(5) {
+  width: 10%;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #0056b3;
+}
+
+td .btn {
+  color: #ccc;
+}
+----------------------------------------------------------------------------------------------------
+// 모듈과 변수 선언
+const express = require("express");
+const mysql = require("./mysql");
+// 라우터 객체 생성
+const router = express.Router();
+// 페이지 라우트
+router.get("/", function (request, response) {
+  mysql.query("SELECT * FROM enquiry", function (error, results) {
+    if (!error) {
+      response.render("mantoman_list", { data: results });
+    } else {
+      console.log("Error");
+    }
+  });
+});
+module.exports = router;
+
