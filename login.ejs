@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>LUKS</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="default.css"/>
+    <link rel="stylesheet" type="text/css" href="login.css"/>
+</head>
+<body>
+<%-include('main_header.ejs')%>
+<!--login form-->
+<div id="wrap" class="main-wrapper">
+    <div id="container" class="container-fluid">
+        <div id="content" class="content-grid">
+            <div class="member-login">
+                <div class="loginwrap">
+                    <fieldset>
+                        <form method="post" class="formbox" id="loginForm">
+                            <div class="form">
+                                <input id="member_id" name="member_id" class="inputTypeText" placeholder="아이디" type="text">
+                                <br>
+                                <br>
+                                <input id="member_pw1"  name="member_pw1"
+                                class="inputTypeText" placeholder="비밀번호" type="password">
+                            </div>
+
+                            <div class="option">
+                                <span class="auto"></span>
+                                <span class="save"><input id="check_save_id" fw-label="아이디저장" type="checkbox">
+                                    <label for="check_save_id">아이디 저장</label></span>
+                            </div>
+
+                            <div class="login-button">
+                                <button type="submit" class="login_btn">로그인</button>
+                            </div>
+
+                            <div class="login-util">
+                                <a class="find_id_btn">아이디찾기</a> |
+                                <a class="find_pw_btn">비밀번호찾기</a> |
+                                <a href="/regist" id="joinus_btn" class="joinus_btn">회원가입</a>
+                            </div>
+                            <div class="sns_login">
+                                <div class="naver_login">
+                                    <img src="image/naver_login_btn.png" class="naver_btn">
+                                </div>
+                                <div class="kakao_login">
+                                    <img src="image/kakao_login_btn.png" class="kakao_btn">
+                                </div>
+                            </div>
+                        </form>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--login form-->
+    <%-include('main_footer.ejs')%>
+    <!--javascript-->
+    <!--javascript-->
+</body>
+</html>
