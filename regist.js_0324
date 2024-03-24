@@ -1,0 +1,40 @@
+const express = require("express");
+const mysql = require("./mysql");
+
+const router = express.Router();
+
+// 회원가입 페이지에 대한 라우터 설정
+router.get("/", (req, res) => {
+  if (req.session.userId) {
+    return res.redirect("/");
+  }
+  res.render("regist");
+});
+
+router.post("/", function (req, res) {
+  const body = req.body;
+
+  mysql.query(
+    "INSERT INTO userinfo (member_id, member_pw1, member_name, member_mobile_num, member_email) VALUES (?, ?, ?, ?, ?)",
+    [
+      body.member_id,
+      body.member_pw1,
+      body.member_name,
+      body.member_mobile_num,
+      body.member_email,
+    ],
+    function (error, results) {
+      if (!error) {
+        console.log("회원가입 완료, 데이터 저장완료");
+        res.send(
+          "<script>alert('회원가입이 완료 되었습니다.');location.href='/login';</script>"
+        );
+      } else {
+        console.log("회원가입 실패");
+        res.redirect("/login");
+      }
+    }
+  );
+});
+
+module.exports = router;
